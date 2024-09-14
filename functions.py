@@ -12,8 +12,17 @@ def get_item_information(item_code):
       return item_name.encode("ascii", "ignore").decode(), int(item_price)
 
 def display_dishes():
-  print('Drinks', [d.replace('\u200b','') for d in data.menu_items if d[0] == 'D'])
-  print('Appetizers', [d.replace('\u200b','') for d in data.menu_items if d[0] == 'A'])
+  while True:
+    print('Drinks', [d.replace('\u200b','') for d in data.menu_items if d[0] == 'D'])
+    print('Appetizers', [d.replace('\u200b','') for d in data.menu_items if d[0] == 'A'])
+    #write code for displaying the other dishes also
+    order_item = input('Enter dish number and quantity: ')
+    if order_item.split()[0] in data.all_items:
+      return order_item
+    else:
+      print('Invalid dish number.  Please try again')
+
+
 
   
     

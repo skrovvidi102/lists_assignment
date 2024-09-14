@@ -27,12 +27,6 @@ def close_order(menu_choice):
 
 
 if __name__ == '__main__':
-    #initialize the lists
-    drinks = []
-    appetizers = []
-    salads = []
-    entrees = []
-    dessert= []
     print(functions.get_item_information('D1'))
     show_main_menu()
 
