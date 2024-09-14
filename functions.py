@@ -11,6 +11,9 @@ def get_item_information(item_code):
     if item_number == item_code:
       return item_name.encode("ascii", "ignore").decode(), int(item_price)
 
-def display_items():
+def display_dishes():
+  print('Drinks', [d.replace('\u200b','') for d in data.menu_items if d[0] == 'D'])
+  print('Appetizers', [d.replace('\u200b','') for d in data.menu_items if d[0] == 'A'])
+
   
     
