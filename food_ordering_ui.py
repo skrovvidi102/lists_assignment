@@ -22,15 +22,9 @@ def show_main_menu():
     elif user_menu_choice in 'Ee':
       print('This option edits the current order')
     else:
-      print('Incorrect choice.  Goddbye!')
+      print('Incorrect choice.  Goodbye!')
       break
 
-
-def make_order(menu_choice):
-  print('Functionality for menu choice ', menu_choice)
-
-def close_order(menu_choice):
-  print('Functionality for menu choice ', menu_choice)
 
 
 
