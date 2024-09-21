@@ -3,7 +3,7 @@ menu_items = [
 'D1 ​​SODA 3',
 'D2 ​​LEMONADE 3',
 'D3 ​​TEA 2',
-'D4 WATER 0',
+'D4 WATER 1',
 'A1 ​​POTATO_CAKES 7',
 'A2 ​​SPINACH_DIP 5',
 'A3 ​​OYSTERS 13',
@@ -26,3 +26,4 @@ appetizer_items = ['A1', 'A2',  'A3', 'A4', 'A5']
 salad_items = ['S1', 'S2', 'S3']
 entree_items = ['E1', 'E2',  'E3', 'E4']
 dessert_items =['T1', 'T2',  'T3', 'T4']
+all_items = drink_items + appetizer_items + salad_items + entree_items + dessert_items
